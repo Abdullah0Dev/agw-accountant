@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🔥 10. Build an SEO Content Engine (Blogs)
 
-## Getting Started
+Target: 2–4 blogs per month.
 
-First, run the development server:
+Local Authority Blogs
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✅ Best Accountants for Small Businesses in Leeds
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✅ Tax Advice for Yorkshire SMEs in 2026
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+✅ How Leeds Startups Can Reduce Their Tax Bill Legally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⸻
 
-## Learn More
+Service Authority Blogs
 
-To learn more about Next.js, take a look at the following resources:
+✅ Corporation Tax Explained for UK Business Owners
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ VAT Registration: Everything Leeds Businesses Need To Know
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Payroll Services: Common Mistakes SMEs Make
 
-## Deploy on Vercel
+⸻
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+HMRC & News Blogs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+✅ Key HMRC Deadlines Every Yorkshire Business Must Know
+
+✅ What The Latest Budget Means For Leeds SMEs
+

@@ -1,26 +1,75 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 :root {
+  /* Core neutrals */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f2438;       /* deep navy text, headings */
+  --border: oklch(0.92 0.004 286.32);
+  --muted: oklch(0.967 0.001 286.375);
+
+  /* Brand primary — the emerald/mint green from the hero gradient + CTA buttons */
+  --primary: #10b981;          /* emerald-500-ish, matches "Tax Consultants" gradient + buttons */
+  --primary-foreground: #ffffff;
+  --primary-light: #ecfdf5;    /* very light mint, used for blockquote bg / soft cards */
+
+  /* Accent — secondary blue used in "Book a Free Consultation" button + Big4 card */
+  --accent: #2563eb;
+  --accent-foreground: #ffffff;
+
+  /* Dark navy band (hero + footer band) */
+  --background-dark: #0a1628;
+  --border-dark: #1e3a52;
+  --foreground-inverted: #ffffff;
+  --muted-foreground-dark: #94a3b8;
+
+  /* Sage/mint section background ("What We Do" section) */
+  --background-muted: #c8d6c5;  /* sage green section bg */
+  --muted-foreground: #5b6b66;
+
+  /* Card greens used in service tags */
+  --green-soft-bg: #f0fdf4;
+  --green-soft-text: #16a34a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-background-dark: var(--background-dark);
+  --color-border-dark: var(--border-dark);
+  --color-foreground-inverted: var(--foreground-inverted);
+  --color-background-muted: var(--background-muted);
+  --color-muted-foreground: var(--muted-foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-roboto: var(--font-roboto);
+  --font-montserrat: var(--font-montserrat);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
+}
+
+/* Prose tables */
+.prose table {
+  @apply w-full border-collapse border border-border text-[15px];
+}
+.prose th {
+  @apply border border-border bg-muted px-4 py-2 text-left font-semibold text-foreground;
+}
+.prose td {
+  @apply border border-border px-4 py-2 text-foreground;
+}
+.prose tbody tr:nth-child(even) {
+  @apply bg-muted/50;
 }
