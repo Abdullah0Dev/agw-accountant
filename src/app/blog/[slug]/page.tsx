@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 function getBaseUrl(): string {
-  return "https://devmindslab.com";
+  return "https://agw-accountant.vercel.app";
 }
 export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
@@ -27,18 +27,18 @@ export async function generateMetadata({
   if (!post) return {};
   const baseUrl = getBaseUrl();
   const postUrl = `${baseUrl}/blog/${slug}`;
-  const imageLogo = `${baseUrl}/images/logo.png`;
+  const imageLogo = `${baseUrl}/logo.jpeg`;
 
   return {
-    title: `${post.title} - Dev Minds`,
+    title: `${post.title} - AGW Accountant`,
     description: post.description,
     keywords: post.keywords,
     openGraph: {
-      title: `${post.title} - Dev Minds`,
+      title: `${post.title} - AGW Accountant`,
       description: post.description,
       type: "article",
       url: postUrl, // ← use the actual post URL
-      siteName: "Dev Minds",
+      siteName: "AGW Accountant",
       images: [
         {
           url: imageLogo,
@@ -50,7 +50,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${post.title} - Dev Minds`,
+      title: `${post.title} - AGW Accountant`,
       description: post.description,
       images: [imageLogo], // explicit twitter image
     },

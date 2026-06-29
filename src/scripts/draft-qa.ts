@@ -111,7 +111,7 @@ Every major claim needs a real, sourced stat from your search - cite inline like
 
 **Where it's a poor fit:** very large corporates needing in-house finance teams; anyone wanting a one-off DIY filing with no ongoing relationship (point them to HMRC's free tools instead, honestly).
 
-**CTA link:** https://agwaccountants.co.uk//contact
+**CTA link:** https://agwaccountants.co.uk/contact
 
 ## RELATED QUESTIONS (use 2-5 as subheadings or FAQ)
 ${relatedQuestionsText}`;
