@@ -33,3 +33,14 @@ HMRC & News Blogs
 
 DASHBOARD_USERNAME=supabase
 DASHBOARD_PASSWORD=mwyiey5y0i336eonxio8dpcnxqiqvmcr
+
+change blog to rohan structure
+
+https://agw-accountant.vercel.app/blog/key-hmrc-deadlines-yorkshire-business
+https://agw-accountant.vercel.app/blog/best-accountants-small-businesses-leeds
+https://agw-accountant.vercel.app/blog/corporation-tax-explained-uk-business-owners
+https://agw-accountant.vercel.app/blog/key-hmrc-deadlines-yorkshire-business
+https://agw-accountant.vercel.app/blog/leeds-startups-reduce-tax-bill-legally
+https://agw-accountant.vercel.app/blog/payroll-services-common-mistakes-smes
+https://agw-accountant.vercel.app/blog/tax-advice-yorkshire-smes-2026
+https://agw-accountant.vercel.app/blog/vat-registration-leeds-businesses
