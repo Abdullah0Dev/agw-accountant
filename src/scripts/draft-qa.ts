@@ -83,6 +83,9 @@ GOOD for "do I need an accountant as a sole trader": "A sole trader doesn't lega
 ## VOICE
 Straight-talking, plain English, second person. No jargon without explanation, no sales hype, no rhetorical questions for effect, no forced metaphors. Vary sentence length. It's fine to say a free or DIY option works for some people - honesty beats persuasion. Every paragraph should stand alone if quoted - name the firm or the topic directly instead of "it."
 
+## MUST TO DO
+Start with an image related to the topic before talking like: ![tax advice image](https://www.pnbmetlife.com/content/dam/pnb-metlife/webp/article/tax-planning.webp)
+
 ## FORMAT - YOU MUST MATCH IT
 MDX only, no preamble. Frontmatter:
 ---
@@ -111,7 +114,7 @@ Every major claim needs a real, sourced stat from your search - cite inline like
 
 **Where it's a poor fit:** very large corporates needing in-house finance teams; anyone wanting a one-off DIY filing with no ongoing relationship (point them to HMRC's free tools instead, honestly).
 
-**CTA link:** https://agwaccountants.co.uk/contact
+**CTA link:** https://agwaccountants.co.uk/
 
 ## RELATED QUESTIONS (use 2-5 as subheadings or FAQ)
 ${relatedQuestionsText}`;

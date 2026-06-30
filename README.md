@@ -28,3 +28,8 @@ HMRC & News Blogs
 
 ✅ What The Latest Budget Means For Leeds SMEs
 
+
+
+
+DASHBOARD_USERNAME=supabase
+DASHBOARD_PASSWORD=mwyiey5y0i336eonxio8dpcnxqiqvmcr
